@@ -1,0 +1,136 @@
+:root {
+    --main-color: #f0f0f0;
+    --secondary-color: #cb3931;
+}
+
+html,
+body {
+    height: 200vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-section,
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section {
+    flex: 6;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.second-section {
+    flex: 4;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.main {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.main-grid {
+    width: 90%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.introduction-section {
+    background-color: var(--main-color);
+    display: flex;
+    flex: 2;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--secondary-color);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.img {
+    width: 27%;
+    height: 27%;
+    position: absolute;
+    background-color: var(--secondary-color);
+    right: 20%;
+    z-index: 1;
+}
+
+.introduction-section {
+    padding-top: 20px;
+}
+
+.introduction-section table {
+    margin-top: 5rem;
+    width: 90%;
+    margin: auto;
+}
+
+.introduction-section h1 {
+    font-size: 3rem;
+}
+
+.education-experience {
+    display: flex;
+}
+
+.education,
+.experience {
+    width: 50%;
+}
+
+.position {
+    font-weight: bold;
+}
+
+.position span {
+    color: var(--secondary-color);
+}
+
+.card {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.contact-info,
+.position-title {
+    color: var(--secondary-color);
+}
+
+.description {
+    color: #6a6565;
+}
